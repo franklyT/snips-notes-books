@@ -43,7 +43,10 @@ let binding = 8,
 for (i = 0; i < binding; i++){
 	for (n = 0; n <= binding; n++){
       if (n % 2 === 0 && n < (binding-1)) {
-        string += "# ";
+        string += "#";
+      } 
+      	else if (n < (binding-2)){
+        	string += " ";
       }
     }
   string += "\n";
