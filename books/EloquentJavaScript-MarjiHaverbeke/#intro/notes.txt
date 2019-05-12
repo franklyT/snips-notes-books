@@ -1,1 +1,9 @@
+Second read of Eloquent JavaScript, working (hopefully fruitfully) through the exercises along the way.
 
+"Keeping programs under control is the main problem of programming."
+
+"A good programming language helps the programmer by allowing them to talk about the actions that the computer has to perform on a higher level." (And yet Haverbeke's repos contain one C++ program and no Python programs!, he probably considers it less relatively than I am)
+
+"There are those who will say terrible things about JavaScript. Many of these things are true." (Lol.)
+
+"JavaScript’s ascent to dominance... roughly between 2000 and 2010."
