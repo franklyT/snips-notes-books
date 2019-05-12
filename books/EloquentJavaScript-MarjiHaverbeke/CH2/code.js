@@ -38,7 +38,7 @@ for (let i = 1; i < 100; i++){
 let binding = 8,
     string = '', 
     array = [],
-    n, i
+    n, i;
 
 for (i = 0; i < binding; i++){
 	for (n = 0; n <= binding; n++){
