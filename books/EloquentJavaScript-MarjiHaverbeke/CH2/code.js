@@ -55,3 +55,5 @@ for (i = 0; i < binding; i++){
   string = '';
 }
 console.log(array.join(''));
+
+/* These exercises were not challenging, but I know the difficulty starts picking up substantially */
