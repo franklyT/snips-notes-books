@@ -1,0 +1,43 @@
+People are usually trying to "find something" on a website
+
+web equivalent of "asking directions" is using a search box
+
+Jacob Nielsen - "Search dominant users" vs. "link dominant users"
+
+web space:
+- "no sense of scale" (useful for clicked links to be different color)
+- "no sense of direction"
+- "no sense of location"
+
+"web navigation" - "figuring out where you are"
+
+persistent navigation - "site ID, sections, utilities, search"
+
+forms don't require the consistency of navigation, which might be distracting
+
+home button in sight at all times
+
+search bar is quite important
+
+every page needs a name
+
+"you are here" highlighting of current location in navigation bars, lists, or menus
+
+don't be too subtle with that visual indicator - add more than one
+
+"breadcrumbs" subitem A > subitem B > subitem C > item d (you are here)
+
+Steve likes tabs
+
+"the trunk test"
+
+- choose a page on a site at random, print it
+- hold it at arms length or squint
+- as quickly as possible, try to find the following items:
+  - site id
+  - page name
+  - sections (primary navigation)
+  - local navigation
+  - "you are here" indicators
+  - search
+  
