@@ -47,7 +47,7 @@ for (i = 0; i < binding; i++){
       } 
       	else if (n < (binding-2)){
         	string += " ";
-      }
+     	}
     }
   string += "\n";
   
