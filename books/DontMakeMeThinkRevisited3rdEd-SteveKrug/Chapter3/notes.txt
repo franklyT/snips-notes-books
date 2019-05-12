@@ -1,0 +1,39 @@
+- <1> "Take advantage of conventions"
+  <2> "Create effective visual hierarchies"
+  <3> "Break pages up into clearly defined areas"
+  <4> "Make it obvious what's clickable"
+  <5> "Eliminate distractions"
+  <6> "Format content to support scanning"
+  
+- 1: 
+  If design visually invokes "classes" in our brains, reference common attributes
+     e.g. website.logo = top left corner
+          website.primarynav = across top or down the left side
+  Essentially study/replicate type-relevant conventions when you build a website, don't     reinvent the wheel (good life philosophy)
+  My thoughts: Krug makes a good point here, that attempts to reinvent the wheel  generally fail to account for invisible factors that the wheel has been modified by many users over many hours to accomodate. Creative endeavors should either incorporate many aspects of the wheel, or be prepared for lots of attentive follow-up. It seems like time might be better spent in the small but attractive change department.
+  
+-2: 
+  "The more important something is, the more prominent it is" e.g. header and sub-header sizing
+  "Things that are related logically are related visually" e.g. grouped under a header? display them in the same visual style, or put them in a clearly defined area
+  "Things are "nested" visually to show what's part of what e.g. elements under a related section name
+  "A good visual hierarchy saves us work by preprocessing the page for us"
+  
+-3:
+  "Eye-tracking studies of Web page scanning suggest that users decide very quickly in their initial glances which parts of the page are likely to have useful information and then rarely look at the other parts"
+  
+-4:
+  Mouseover components can't be relied upon, they don't work for mobile and require action
+  
+-5:
+  "varying tolerances for complexiy and distractions"
+  too much "shouting", i.e. attention grab attempts
+  use grids to align page elements
+  don't have too many things going on, "guilty until proven innocent" for all elements, 
+everything that's not part of the solution must go"
+
+-6:
+  "use plenty of headings" and "put more time into writing them"
+  make headings closer to section they introduce than the section they follow
+  "keep paragraphs short" - "single sentence paragraphs are fine"
+  "use bulleted lists" - "any items separated by commas or semi-colons" - "small space between each bullet"
+  Letting Go of the Words by Ginny Redish
