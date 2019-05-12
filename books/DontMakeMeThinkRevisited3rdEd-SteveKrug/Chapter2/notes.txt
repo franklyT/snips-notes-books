@@ -1,0 +1,8 @@
+- Users "Glance", "Scan", "Click"
+- "Most web use involves trying to get something done, and usually done quickly"
+- Krug postulates "Free", "Sale", "Sex" and our name as "hardwired trigger words" (haha, perhaps)
+- We don't choose the best option, we choose the first reasonable option, "satisficing" (I'm okay with this philosophy, time is limited)
+- "We don't figure out how things work, we muddle through"
+- "A lot of people think Google is the internet"
+- Website should make user "feel smart"
+- "Design great billboards"
