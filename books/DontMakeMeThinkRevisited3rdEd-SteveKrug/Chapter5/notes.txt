@@ -1,0 +1,10 @@
+"Omit needless words" - E.B. White's The Elements of Style
+
+"When I look at web pages, I'm struck by the fact that most of the words I see are just taking up space, because 
+no one is ever going to read them" - but they suggest that you must read them just by being on the page
+
+"Remove half of the words"
+
+"happy talk must die" - eliminate "small talk"
+
+"nobody is going to read instructions" - at least until they've failed for awhile - "make everything self-explanatory"
