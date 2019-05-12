@@ -1,1 +1,12 @@
+'bindings as tentacles' metaphor is conceptually very odd, but we'll take it (garbage collection leads to mass tentacle slaughter)
+
+"we’ll rarely use [var] in this book because it has some confusing properties" (but Marjin doesn't shy away from other confusing properties! :()
+
+"reserved" words:
+
+break, case, catch, class, const, continue, debugger, default, delete, do, else, enum, export, extends, false, finally, for, function, if, implements, import, interface, in, instanceof, let, new, package, private, protected, public, return, static, super, switch, this, throw, true, try, typeof, var, void, while, with, yield
+
+"prompt" function - no control of box, mostly for testing
+
+
 
