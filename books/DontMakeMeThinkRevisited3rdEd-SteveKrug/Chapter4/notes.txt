@@ -1,0 +1,5 @@
+- # of clicks are fine, so long as clicks are mindless
+- Krug postulates that "three mindless, unambiguous clicks equals one click with thought"... with exceptions
+- The linked 20q.net 20 questions algorithm did not guess "string theory" or anything near it
+Forms that Work: Designing Web Forms for Usability by Caroline Jarrett
+- Give guidance when difficult choices are necessary, but not too much (make it "brief", "timely" and "unavoidable"
