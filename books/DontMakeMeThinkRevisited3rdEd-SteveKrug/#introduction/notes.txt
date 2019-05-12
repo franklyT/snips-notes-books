@@ -1,0 +1,4 @@
+ #Introduction
+- Do usability testing (duh!)
+- Complex heuristics (no hard and fast rules)
+- Design for LCD
