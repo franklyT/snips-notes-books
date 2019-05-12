@@ -1,0 +1,5 @@
+- Design for LCD!
+- "There's almost always a plausible rationale - and good, if misguided intention, behind every usability flaw"
+- 'Obvious clickability'
+- Smplify headers to make information more findable
+- Exceptions: "You can't make everything self-evident" - but try "self-explanatory"
