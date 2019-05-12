@@ -45,10 +45,9 @@ for (i = 0; i < binding; i++){
       if (n % 2 === 0 && n < (binding-1)) {
         string += "# ";
       }
-      if (n === binding) {
-        string += "\n";
-      }
     }
+  string += "\n";
+  
   if (i % 2 === 0){
     string = ' ' + string;
   }
