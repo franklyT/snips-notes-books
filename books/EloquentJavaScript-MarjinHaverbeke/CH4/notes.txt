@@ -1,0 +1,58 @@
+"The chapter will work through a more or less realistic programming example" (well, that's not how I recall it)
+
+"suspicious-looking expressions" (haha)
+
+dot notation works only with valid binding names (array.length === array["length"]
+
+elements in array stored as array's properties
+
+"Properties whose names aren’t valid binding names or valid numbers have to be quoted"
+e.g. let descriptions = {
+  work: "Went to work",
+  "touched tree": "Touched a tree"
+};
+
+keys = property names
+
+octopus metaphor definitely breaks down here with the arrays as "long, flat octupuses with all their tentacles in a neat row, labeled with numbers"
+
+const object is still mutable
+
+for x in y
+.includes
+
+statistics does this exercise little favors
+
+indexOf(value, start) - start > end - returns -1 if not found
+lastIndexOf(value, start) - end > start
+
+.concat
+
+properties on string, numer and Boolean do not 'stick'
+
+.slice, .indexOf as string methods (can search for more than one character)
+
+.trim (removes whitespace from start and end)
+.padStart
+
+.split, .join
+
+.repeat(value) (new string with copies of original string)
+
+rest ... can call function with array of arguments
+
+rest ... can also spread another array into a new array
+
+now we're doing trigonometry I guess
+
+Math.floor
+
+Math.ceil
+
+Math.round
+
+Math.abs
+
+JSON serialization (all property names surrounded by double quotes, only simple data expressions allowed (no computation), no comments)
+
+JSON.stringify (takes JS value and returns JSON-encoded string), JSON.parse (takes string and converts it to value it encodes)
