@@ -44,6 +44,31 @@ function reverseArrayInPlace(array){
   return array;
 }
 
-// Exercise 3
+// Exercise 3 - a linked list, of all things?
+function arrayToList(array){
+let obj = null, i = 0;
+array.reverse().forEach(x = (y) => {obj = {value: y, rest: obj}});
+  return obj;
+}
 
+function listToArray(list){
+let array = [];
+for (let node = list; node; node = node.rest) {
+	array.push(node.value);
+	}
+  return array;
+}
 
+function prepend(element, list){
+  return obj = {value: element, rest:list};
+}
+
+function nth(list, number){
+   if (number === 0){
+     return list.value;
+   } else {
+  return nth(list.rest, number-1);
+   }
+}
+
+// This seemed a bit much all of a sudden
