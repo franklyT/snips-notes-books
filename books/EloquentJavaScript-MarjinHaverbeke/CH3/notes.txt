@@ -1,0 +1,12 @@
+function declaration notation is hoisted
+
+single expression with arrow functions implicitly return evaluation
+
+the demonstration of the fact that local bindings are "created anew for every call" is really convoluted
+
+recursion is very slow
+
+this recursive "puzzle" is really a bit much to demonstrate recursion
+
+pure function - good, likable, Haverbeke cautions against the "holy war to purge them from your code"
+
