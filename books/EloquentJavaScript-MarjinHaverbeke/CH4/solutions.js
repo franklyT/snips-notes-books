@@ -45,6 +45,7 @@ function reverseArrayInPlace(array){
 }
 
 // Exercise 3 - a linked list, of all things?
+
 function arrayToList(array){
 let obj = null, i = 0;
 array.reverse().forEach(x = (y) => {obj = {value: y, rest: obj}});
@@ -72,3 +73,19 @@ function nth(list, number){
 }
 
 // This seemed a bit much all of a sudden
+
+// Exercise 4
+
+function deepEqual(val1, val2){
+  if (! (typeof(val1) && typeof(val2) === "object") && 
+     (val1 === null) || (val2 === null) ) {
+   		 return (val1 === val2);
+      }
+  else{
+    return JSON.stringify(val1).split('').sort().join('')  
+       === JSON.stringify(val2).split('').sort().join('');
+  }
+}
+
+/* Hey, this shortcut is in the chapter! Also, we're using these comments going forward. */
+
