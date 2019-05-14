@@ -43,7 +43,22 @@ Home Page Blocks:
 
 "don't trust your judgment, show home page to people from outside your organization"
 
-"nothing beats a good tagline"
+"nothing beats a good tagline" - "clear, informative, explains exactly what your site or your organization does"
+  - "just long enough - not too long"
+  - "A really good tagline is one that no one else in the world could use expect you" - Jakov Nielsen
+  - "bad taglines sound generic"
+  - "don't confuse a tagline with a motto" - mottoes sound lofty and reassuring, taglines convey value proposition
+  - "good taglines are personable, lively and sometimes clever"
+  
+homepage needs to answer "where do I start?"
+
+make entry-points look like entry points (search box should look like search box, list of sections should look like a list of sections)
+
+homepage "tragedy of the commons"
+
+
+  
+
 
 
 
