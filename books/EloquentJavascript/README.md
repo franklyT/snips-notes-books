@@ -4,4 +4,4 @@
 Edition: 3rd
 
 
-Author: Marjin Haverbeke
+Author: Marijn Haverbeke
