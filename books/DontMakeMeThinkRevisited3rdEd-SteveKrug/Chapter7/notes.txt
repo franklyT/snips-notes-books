@@ -1,0 +1,49 @@
+home page:
+  - site identity (brand) and mission
+  - site hierarchy
+  - search 
+  - "teases"
+  - content promos (newest, best, most popular)
+  - feature promos (explore more)
+  - timely content (frequent updates)
+  - deals (allocated for advertising, cross-promotion, and co-branding)
+  - shortcuts (most frequently used content)
+  - registration (as needed, "welcome back, x")
+
+home page should show you what you're looking for (make it obvious, simple, stupid)
+AND what you're not looking for (check out this new content)
+
+show you where to start (no idea where to begin? you blew it!)
+
+establish credibility and trust (abstract, but general professionalism and slick appearances)
+
+"one size fits all" (is this possible?)
+
+home page answers, "what is this?", "what do they have here?", "what can I do here?", "why should I be here and not somewhere else?"
+
+"big baby theory of web design, first few seconds you spend on a web site or web page are critical"
+ref: Attention Web Designers: You Have 50 Milliseconds to Make A Good First Impression!"
+
+"if they are lost when they start out, they usually just keep getting...loster"
+
+the greatness of your website is not obvious
+
+don't have hubris about who "gets" your site
+
+portal to website page > back to home page for bearings
+
+Home Page Blocks:
+  - the tagline - space right next to site ID - phrase is a tagline/description of whole site
+  - welcome blurb (isn't this too "happy talky" that Krug advises against? maybe not.)
+  - the learn more - short explanatory video
+
+"what is kickstarter" example - most prominent item in primary navigation
+
+"don't use a mission statement as a welcome blurb" (okay, Krug clarifies here. this is happy talk.)
+
+"don't trust your judgment, show home page to people from outside your organization"
+
+"nothing beats a good tagline"
+
+
+
