@@ -1,0 +1,24 @@
+never test too late (good for software development as well)
+
+(http://someslightlyirregular.com/blog/2011/08/12/you-say-potato/) - Steve's focus group vs usability testing video
+
+focus group - talking about opinions and feelings about things
+usability test - watching a person try to use something
+
+"focus groups are best used in the planning stages of the product" "are you building he right product?"
+Steve feels that usability tests should be used throughout the entire process
+
+testing is like "havings friends visit from out of town" - you see things you don't notice because you're so used to them
+
+a one user test is "100% better" than a 0 user test
+"testing one user early in the project is better than testing 50 near the end" (again, feels markety)
+
+users don't like change!
+
+Usability Engineering at a Discount by Jakob Nielsen
+
+Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems by Steve Krug
+
+"one morning a month" testing - "I think every web development team should spend one morning a month doing usability testing"
+
+agile development = testing more frequently
