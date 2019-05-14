@@ -1,0 +1,9 @@
+Krug feels that arguments about design decisions are a waste of time (arguments typically are)
+
+we assume most other users think like us
+
+hype culture (marketing, business) vs craft culture (dev, design)
+
+are "most" web users "like" anything? - Krug doesn't think so... making web design kind of a difficult enterprise
+
+"no substitute for testing" (I agree, but it feels ad-like, though Krug says he will teach us this hidden wisdom)
