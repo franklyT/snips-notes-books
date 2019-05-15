@@ -55,10 +55,3 @@ homepage needs to answer "where do I start?"
 make entry-points look like entry points (search box should look like search box, list of sections should look like a list of sections)
 
 homepage "tragedy of the commons"
-
-
-  
-
-
-
-
