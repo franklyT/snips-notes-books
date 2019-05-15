@@ -1,0 +1,26 @@
+'Steve Jobs sold UX'
+
+proselytize usability commonly:
+  - demonstrate ROI - Cost-justifying Usability: An Update for the Interner Age by Randolph Bias and Deborah Mayhew
+  - speak marketing language
+  
+the Steve Krug way(tm):
+  - get your boss (and her boss) to watch a usability test - executives find this interesting (or make a short video for people to watch)
+  - do the first one on your own time (pick an easy target)
+  - test the competition
+  - understand the management point of view
+  - "know your place" (Steve cautions us not to take it personally)
+  
+  It's Our Research: Getting Stakeholder Buy-In for User Experience Research Projects by Tomer Sharon, UX researcher at Google
+  
+  The User Experience Team of One: A Research and Design Survival Guide by Leak Buley
+  
+  Influence: The Psychology of Persuasion by Rovert Cialdini
+  
+  Various books by Sysan Weinschenk (pictured, How to Get People to Do Stuff)
+  
+  Steve's wonderlist:
+    - don't use small, low-contrast type
+    - don't put labels inside form fields (read don't put labels inside text bosses (unless you're luke w)")
+    - preserve the distinction between visited and unvisted text links
+    - don't float headings between two paragraphs (make them closer to the text that follows than the text that precedes)
