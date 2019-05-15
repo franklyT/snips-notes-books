@@ -1,0 +1,32 @@
+krug describes the introduction of the iphone in 2007 (was it that long ago?) as "the great leap forward"
+
+"it's all about tradeoffs"
+
+"constraints actually make design easier and foster innovation" (e.g. poetry forms, I think it's an obvious assertion)
+
+mobile first constraint - user will keep tapping or scrolling if they feel that they're going to find the information they need
+
+"managing real estate challenges shouldn't be done at the cost of usability" - Manikandan Baluchamy
+
+two separate versions of things will lack parity and require more work - but if so, "always provide a link to the 'full' website"
+
+affordances - visual clues in an object's design that suggest how we can use it - The Design of Everyday Things by Don Norman
+
+death of the hover (via mobile)
+
+"flat design" - heavy minimalistic trend - if you use flat design, use remaining dimensions to compensate for what you lose
+
+(I feel like Krug's talk here about speed misses the mark a bit, 4G has really good saturation now... and we're moving into a 5G world. but, yeah, optimization.)
+
+Krug's definition of usability: "A person of average (or even below average) ability and experience can figure out how to use the thing [i.e., it's learnable] to accomplish something [effective] without it being more trouble than it's worth [efficient]."
+
+"useful" / "desireable" marketing questions, not design questions, Krug feels
+
+"delightful" (not so sure about this)
+
+"learnable"
+
+"memorability" (relarning is easy if it is easy to learn in the first place)
+  - "life is cheap (99 cents) on mobile devices"
+
+(this whole camera diversion seems a bit dated. you could just use scrcpy, turn on tap marks, and hook the user up via USB to a screen capped PC. I'm okay with this and feel the wire is more liberating than the camera, but wireless screen transfers to PC also exist)
