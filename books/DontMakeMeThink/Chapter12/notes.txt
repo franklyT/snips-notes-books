@@ -1,0 +1,12 @@
+WCAG validator (lighthouse?)
+
+1. make the site more usable for everyone
+2. learn about accessibility technology (guidelines for accessible and usable web sites: observing users who work with screen readers) - blind users "scan with their ears"
+3. read books about accessibility (why not this one? oh, well) A Web for Everyone: Designing Accessible User Experiences by Sarah Horton and Whitney Quesenbery - "good UX equals good accessibility" - Web Accessibility: Web Standards and Regulatory Compliance by Jim Thatcher et al. - "here are laws and regulations and how to meet them"
+4. Go for the low-hanging fruit - webaim.org helps teach good alt text writing
+      - add alt text, empty or null alt for images that screen readers should ignore
+      - Use headings correctly
+      - "skip to main content" link at beginning of each page
+      - Make all content accessible by keyboard
+      - create significant contrast between text and background
+      - use an accessible template if you're using wordpress
