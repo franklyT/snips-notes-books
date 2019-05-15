@@ -1,0 +1,28 @@
+giving goodwill means receiving goodwill
+
+depleting goodwill means receiving... badwill (NPS (Net Promoter Score) goes down)
+
+"you can't count on a very large reserve of goodwill - but you can refill it"
+
+sometimes a single mistake can empty goodwill
+
+goodwill depleters:
+  - hiding information the user wants
+  - punishing the user for not doing things they want (user should not have to think about formatting: dashes in ss, spaces in cc, etc.)
+  - asking for too much information (users are skeptical of handing out personal information)
+  - false sincerity ("your call is important to us")
+  - putting things in the user's way
+  - website looks amateurish
+
+Krug thinks that sometimes it makes business sense to deplete goodwill. if you can refill it, this is true, but I think that the raw numbers will be misleading here.
+
+goodwill increasers:
+  - know the main things people want, make them obvious and easy
+  - tell the user what they want to know (things you may not want them to know)
+  - save the user steps (instead of making them look up a tracking number, give them a link to the site that submits the number)
+  - put effort into the website (Krug likes the HP technical support website, which exemplifies all of his favorite things about websites and looks like he designed it. to me, it looks slightly dated, and I somehow came across a 404 error in plaintext while using it)
+  - know what questions users are likely to have, and answer them 
+       - FAQs are "enormously valuable" if they're not "questions we wish people would ask", are up to date, and are candid (don't shy away from questions you'd rather them not ask)
+  - provide the user with basic things like printer-friendly pages (drop the ads)
+  - make it easy to recover from errors
+  - when in doubt, apologize (I don't know, I don't like when a business apologizes unless they follow up with a clean alternate option or course of action)
