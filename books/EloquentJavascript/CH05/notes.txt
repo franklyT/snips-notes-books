@@ -1,1 +1,64 @@
+sum()
+range()
+
+"It is a useful skill, in programming, to notice when you are working at too low a level of abstraction."
+
+functions are just values
+
+repeat base function
+
+function repeat(n, action) {
+  for (let i =0; i < n; i++) {
+    action(i);
+    }
+}
+
+higher-order functions: functions that operate on other functions (abstract over actions, not just values)
+
+I made Haverbeke's "noisy" example a bit more legible:
+
+function noisy(passedFunction) {
+  return function (...args) {
+    console.log("calling with", args);
+    let result = passedFunction(...args);
+    console.log("called with", args, ", returned", result);
+    return result;
+  };
+}
+
+As I understand it, the function noisy is returning the value of an anonymous function that passes in the passed function (in his example, Math.min) from the original call and parses the result. So Math.min is passed into noisy and a function is immediately called that assesses the arguments in context of the passed function.
+
+function unless(test, then) {
+  if (!test) then();
+}
+
+repeat(3, n => {
+  unless(n % 2 == 1, () => {
+     console.log(n, "is even");
+     });}
+});
+// > 0 is even
+// > 2 is even
+
+If the passed condition fails (is equal to false), a passed function is called.
+
+Array.forEach(function)
+
+"Though I can fluently read only Latin characters" - yes, yes, you're very intelligent ;)
+
+"Like forEach, filter is a standard array method. The example defined the function only to show what it does internally." (I mean, I'd have led with that)
+
+.map method transforms an array by applying a function to all of its elements and building a new array from the returned values
+
+.reduce builds a value by repeatedly taking a single elements from the array and combining it with the current value
+
+.reduce(array, combine, start) - in leaving off start value, the method will take the first element of the array as its start value and start reducing at the second element
+
+.some takes a test function and tells you whether that function returns true for any of the elements in the array
+
+
+
+
+
+
 
