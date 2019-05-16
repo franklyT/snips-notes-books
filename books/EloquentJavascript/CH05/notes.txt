@@ -56,8 +56,20 @@ Array.forEach(function)
 
 .some takes a test function and tells you whether that function returns true for any of the elements in the array
 
+problems with UTF-16:
 
+"obvious operations on JavaScript strings, such as getting their length through the length property and accessing their content using square brackets, deal only with code units"
 
+"JavaScript’s charCodeAt method gives you a code unit, not a full character code. The codePointAt method, added later, does give a full Unicode character"
+
+for/of loops over real characters
+
+let roseDragon = "🌹🐉";
+for (let char of roseDragon) {
+  console.log(roseDragon.codePointAt(Array.from(roseDragon).indexOf(char)))
+}
+
+findIndex returns the first value for which the given function returns true
 
 
 
