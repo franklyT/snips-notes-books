@@ -87,5 +87,5 @@ function deepEqual(val1, val2){
   }
 }
 
-/* Hey, this shortcut is in the chapter! Also, we're using these comments going forward. */
+// This solution is kind of fun, but it fails when anything is being evaluated.
 
