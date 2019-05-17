@@ -24,3 +24,24 @@ loop(3, n => n > 0, n => n - 1, console.log);
 // → 1
 
 // This one took some trial and error to get the loop right, but was ultimately not complex with recursion.
+
+// Exercise 3
+function every(array, test) {
+    let i = 0;
+	while (i < array.length)
+      if ( test(array[i]) ){ i++ } else { return false; }
+    return true;
+}
+
+// Experimented with some formatting here given that the logic test is so short
+
+function every(array, test) {
+	return !(array.some(element => !test(element)))
+}
+
+// Exercise 4
+
+
+
+
+
