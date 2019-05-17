@@ -41,7 +41,27 @@ function every(array, test) {
 
 // Exercise 4
 
+function dominantDirection(text) {
+  let scripts = countBy(text, char => {
+    let script = characterScript(char.codePointAt(0));
+    return script ? script.direction : "none";
+  }).filter(({name}) => name != "none");
 
+  let total = scripts.reduce((n, {count}) => n + count, 0);
+  if (total == 0) return "No scripts found";
+
+  return scripts.map(({name, count}) => {
+	 return (count + name);})
+  			.reduce((a,b) => {return a > b ? a : b})
+  			.replace(/[0-9]/g, '');
+}
+
+console.log(dominantDirection("Hello!"));
+// → ltr
+console.log(dominantDirection("Hey, مساء الخير"));
+// → rtl
+
+// It's a bit sloppy but it works
 
 
 
