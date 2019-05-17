@@ -1,1 +1,10 @@
+makedir
+cd
+npm init -y (local env)
+npm install react
+npm install react react-dom
 
+Babel: https://babeljs.io/
+NPM: https://docs.npmjs.com/
+Yarn: https://yarnpkg.com/en/docs/
+Getting started with React: https://reactjs.org/docs/getting-started.html
