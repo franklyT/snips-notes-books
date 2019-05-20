@@ -1,0 +1,24 @@
+"A Dao of Web Design" by John Allsopp
+
+  - new vs. old medium, medium is reproductive of 'older' standards, kind of like a simulacrum
+  - designers as "controllers", "in print, the designer is god" - web designers should 'abandon control'
+  - embrace advantages of web design over limitations of print
+  - "make pages which are adaptable", "make pages which are accessible"
+  - "think about what your pages do, not what they look like"
+  - "let your design flow from the services which they will provide to users, rather than from sone overarching idea of what you want pages to look like"
+  - "let form follow function, rather than trying to make a particular design 'work'"
+  - "don't use html for presentation" (of course)
+  - "absolute units like pixels and points are to be avoided... and color needs to be used carefully, and never relied on"
+  - "don't rely on a font being available regardless of how common it is"
+  - font size as accessibility issue
+  - logical resolution differences mean pixels are not identical across operating systems (mac 72 DPI, windows 96 DPI)
+  - "if you don't set a size for the text in the body, then the text of the body will be the size that the reader has chosen as their default size" doing nothing > accessibility!
+  - "You might say “but the text looks too big” if I just leave it like that. Make it smaller then. But in your browser." (can we rely on users to customize their browser experience?)
+  - "headings should be 30% larder than body text, level 2 should be 25% larger, and so on" (this can make text very small, but I don't see a nesting problem as so much text seems inadvisable)
+  - adjustable color sheets for accessibility (i like this! color-blind mode with variables)
+  
+ Yet a tree broader than a man can embrace is born of a tiny shoot;
+A dam greater than a river can overflow starts with a clod of earth;
+A journey of a thousand miles begins at the spot under one’s feet.
+
+Tao Te Ching; 64a. Care at the Beginning
