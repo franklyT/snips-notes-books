@@ -1,0 +1,8 @@
+Ref: aDaoOfWebDesign.txt
+
+mobile vs desktop specific instances are too much "fragmentation", hence 'responsive design'
+
+Responsive design elements:
+  - A flexible, grid-based layout
+  - Flexible images and media
+  - Media queries, a module from CSS3
