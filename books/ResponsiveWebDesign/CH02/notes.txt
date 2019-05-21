@@ -1,0 +1,39 @@
+# The Flexible Grid
+
+Typographic grid - a rational system of columns and rows, upon which modules of content [can] be placed
+
+Flexible typesetting
+
+ems relation to 100% browser default (typically @ 16px)
+
+eric meyer's reset is recommended, which overrides default HTML stylesheet (I've loaded this into my Codepen example)
+
+headline:
+
+https://codepen.io/maldici/pen/0ca105784b0bfdf03b2889e3915421f3
+
+Formula for relative font-size:
+
+target / context = result
+  if our base font-size @ 100% equates to 16px, we can plug the target value into the formula.
+  h1 target size (24px) / base size (16px) = 1.5(ems)
+  - I love the way he comments his code here with font-size: 1.5em; /* 24px / 16px*/
+  
+ <a> currently inheriting parent traits @ h1
+ 
+No need to round, more information = better results
+
+"Every aspect of our grid - the rows and columns, and the modules draped over them - can be expressed as proportions of their containing element, rather than in unchanging, inflexible pixels." - target / context = result
+
+grid resizing should be proportional, e.g. % based
+
+target pixel width for blod is 900px
+
+900px (target width) / 960px (page width) = 0.9375 (93.75%)
+
+blog:
+https://codepen.io/maldici/pen/98b1b381d04bd6c5bbaadde5a1186621
+
+when setting flexible margins on an element, your context is the width of the element's container
+
+when setting flexible padding on an element, your context is the width of the element itself. the padding is in relation to the width of the box itself, not the parent element.
