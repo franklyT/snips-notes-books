@@ -1,0 +1,62 @@
+blog for ch03:
+
+https://codepen.io/maldici/pen/293e6c0fd99440fc21f63874e42cf3c0
+
+< IE6 doesn't support max-width
+
+IE6 stylesheet for max-width
+
+img.full,
+object.full,
+.main img,
+.main object {
+  width: 100%;
+}
+
+(specific selectors will deal with oversized media)
+
+< IE7, Firefox 2 artifact flexible images (Fixed in Windows 7)
+
+< IE6 PNG transparency workaround: AlphaImageLoader
+
+.logo {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.
+  AlphaImageLoader(str="img.png", sizingMethod="scale");
+  }
+  
+  AlphaImageLoader "patch" - removes BG image from the element, inserts it into an AlphaImageLoader object that sits between the BG layer and the element's content
+  sizingMethod determines whether the AlphaImageLoader object should crop any parts of the image that overflow its container, treat it like a regular image, or scale it to fit it within its containing element
+  
+  ^ Dramatically improves rendering quality in IE
+  
+  Marcotte's IE fix = http://bkaprt.com/rwd/16/ - creates AlphaImageLoader objects (consider performance overhead issues)
+  
+  background-size - allows us to create truly flexible background images - support is lacking
+  
+  Scott Robbin's jQuery Backstretch plugin simulates resizable background images on the body element
+  
+  CSS3 media queries could be used to apply different background images tailored to different resolution ranges
+  
+  Richard Rutter's experiemnts wth wide images placed in flexible layouts (http://bkaprt.com/rwd/11/)
+  
+  clip off excess image by applying overflow: hidden
+  
+  .feature ing {
+    max-width: 100%;
+ }
+ 
+ vs clipped
+ 
+ .feature {
+  overflow: hidden;
+}
+
+.feature img {
+  display: block;
+  max-width: auto;
+}
+
+overflow - probably less useful than scaling with max-width
+
+scaling with image separation - Bryan Rieger (http://bkaprt.com/rwd/23/) - backend solution
