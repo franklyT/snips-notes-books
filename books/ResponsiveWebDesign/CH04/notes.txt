@@ -1,0 +1,88 @@
+CSS2 solution:
+
+Media types
+
+<link rel="stylesheet" href="global.css" media="all" />
+<link rel="stylesheet" href="main.css" media="screen" />
+<link rel="stylesheet" href="paper.css" media="print" />
+
+@media screen {
+body {
+  font-size: 100%;
+  }
+}
+
+@media print {
+body {
+  font-size: 15pt;
+  }
+}
+
+CSS3 solution:
+
+media queries
+
+@media screen and (min-width: 1024px) {
+body {
+  font-size: 100%;
+  }
+}
+
+CSS2 specification "screen" still exists, preceding query
+
+Alternate:
+
+<link rel="stylesheet" href="wide.css" media="screen and (min-widh: 1024px)" />
+
+@import url("wide.css") screen and (min-width: 1024px);
+
+chaining tests, e.g. @ media screen and (min-device-width: 480px) and (orientation: landscape) { ... }
+
+meta:viewport > dictate how wide a browser's viewport should be
+
+initial-scale > zoom level of page to 1.0 or 100% (mozilla explains: http://bkaprt.com/rwd/30/)
+
+(League gothic)
+
+Our example (the lack of step-by-step source code is killing me, codepen can't keep up so I'll do my best) (
+
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+@ media screen and (max-width: 768px (below most phone and tablet spec) { 
+ .main-title {
+  font: normal 1.5em Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Helvetica, sans-serif;
+  }
+}
+
+#page {
+  margin: 36px auto;
+  width: 90%;
+}
+
+V
+
+@media screen and (max-with: 768px) {
+  #page {
+    position: relative;
+    margin: 20px;
+    width: auto;
+  }
+}
+
+/* this isn't helping, so we'll defer the CSS examples */
+
+<IE8 no media query support!
+
+css3-mediaqueries.js libraty polyfills it
+
+respond.js patches support for min-width and max-width queries
+
+responsive design begins with a flexible layout, and media queries are layered upon the non-fixed foundation
+
+37 signals:
+  "as it turned out, making the layout work on a variety of devices was just a matter of adding a few CSS media queries to the finished product. the key to making it easy was that the layout was alreayd liquid, so optimizing it for small screens meant collapsing a few margins to maximize space and tweaking the sidebar layout in the cases where the screen is too narrow to show two columns."
+
+"the CSS max-width property seems almost forgotten in the web designer's toolbox since it wasn't supported by internet explorer 6. With that restrictions lifted, it's the perfect complement to a liquid layout, letting the content re-flow naturally at a variety of widths but not expanding to the point of absurdity where extreme line lengths make reading a chore. it's a great comprimise between liquid and fixed layouts."
+
+https://cognition.happycog.com/
+https://simplebits.com/
