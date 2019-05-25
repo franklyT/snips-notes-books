@@ -1,0 +1,17 @@
+ref "Responsive Web Design" by Ethan Marcotte
+
+@ Tripleodeon (https://tripleodeon.com/2010/10/not-a-mobile-web-merely-a-320px-wide-one/)
+
+"Media queries only affect the styling once the markup and other resources have reached the browser"
+  - (this point is less important these days with the propagation of 4G (and soon to be 5G), but the reality is that media queries do not defer resource loads
+  
+"Media queries are not supported by most of the world's web browsers"
+  - (this point is nill in 2019, feels super dated)
+  
+Context of mobile matters - e.g. the user's context differs between mobile and desktop use (sometimes, I mean, peoplet typically browse their phones on the couch or sitting around these days, ref: Don't Make Me Think by Steve Krug)
+
+Context of activity on the website matters e.g. what is a user likely to be browsing on mobile for? usually truncated information
+
+"media queries are not the silver bullet for the mobile context"
+
+"Today’s ‘Responsive Web Design’ is a lukewarm response to a similar seismic shift – that of the sedentary web into expectant mobile hands."
