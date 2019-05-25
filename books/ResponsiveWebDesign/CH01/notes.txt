@@ -1,4 +1,4 @@
-Ref: aDaoOfWebDesign.txt
+Ref: articles/aDaoOfWebDesign.txt
 
 mobile vs desktop specific instances are too much "fragmentation", hence 'responsive design'
 
