@@ -7,4 +7,4 @@ Edition: 3rd
 Author: Steve Krug
 
 
-Status: Finished
+Status: Complete
