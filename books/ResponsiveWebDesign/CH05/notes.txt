@@ -1,1 +1,58 @@
 "responsive design is about serving one HTML document to countless browsers and devices, using flexible layouts and media queries to ensure that design is as portable and accessible as possible"
+
+ref: article/notAMobileWeb
+
+Jeff Croft (dead link): "By and large, mobile users want different things from your product than desktop users do. If you're a restaurant, desktop users may want photos of your place, a complete menu, and some information about your history. But mobile users probably just want your address and operating hours".
+
+Ethan reiterates a point I made in the not a mobile web article - that research suggests that people use "the mobile web" from their home
+
+reaearch how audience actually uses website
+
+responsive design isn't necessarily 100%, but it usually is
+
+this is what I figured: you can use media-queries and display: none to deliver different site experiences on the same page, but it does add a lot of HTML - in this example, the mobile-only (event site) wins
+
+(the above probably means less if you're serving rapid static solutions)
+
+why can't all websites be "mobile first"?
+
+mobile-first responsive design asks the questions, "how does this content or feature benefit our mobile users?"
+
+designing for mobile promotes "less is more" approach with the canvas limitations
+
+resolution breakpoints
+(320 pixels, small screen portrait mode devices)
+(480 pixels, small screen landscape devices)
+(600 pixels, small tablets)
+(768 pixels, ten-inch tablets in portrait)
+(1024 pixels, tablets in landscape, some laptop, notebook and desktop displays)
+(1200 pixels, widesdcreen laptop and desktop browsers)
+
+(these might be slightly dated in 2019)
+
+planning phase (sitemap and wireframes) - client must approve
+design phase (mock up in photoshop or other editor) - combination with dev phase into hybrid phase
+development phase
+delivery
+
+first mockup gives starting point, kick off discussion
+
+store breakpoints in chrome dev tools
+
+(http://alistapart.com/article/smartphone-browser-landscape/) - testing - feels dated as hell, though
+
+during the design review, various platforms will be tested and considered
+
+min-width media queries to scale design up - mobile fdirst
+
+progressive enhancement: "rather than hoping for graceful degradation, progressive enhancement builds documents for the least capable or differently capable devices first, then moves on to enhance those documents with sdeparate logic for presentation, in ways that don't place an undue burden on baseline devices but which allow a richer experience for those users with modern graphical browser software"
+
+adding elements via javascript in order to bypass noscript issues
+
+html stub loaded from jQuery
+
+JS media query (if screen.width > 480)
+
+
+
+
