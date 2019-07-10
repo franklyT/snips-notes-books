@@ -1,3 +1,3 @@
-Coding mostly inline @ scrimba
+Coding inline @ scrimba
 
 Status: In progress
