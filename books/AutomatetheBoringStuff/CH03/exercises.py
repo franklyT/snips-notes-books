@@ -1,13 +1,13 @@
-def collatz(number):
-    numberParsed = int(number)
-    if numberParsed == 1:
+def collatz(n):
+    number = int(n)
+    if number == 1:
         return
-    elif numberParsed % 2 == 0:
-        val = int(numberParsed/2)
+    elif number % 2 == 0:
+        val = int(number/2)
         print(val)
         collatz(val)
     else:
-        val = int(3*numberParsed+1)
+        val = int(3*number+1)
         print(val)
         collatz(val)
 
