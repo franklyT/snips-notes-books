@@ -1,5 +1,4 @@
-def collatz(n):
-    number = int(n)
+def collatz(number):
     if number == 1:
         return
     elif number % 2 == 0:
@@ -12,12 +11,11 @@ def collatz(n):
         collatz(val)
 
 numberInput = input("Enter number: ")
-collatz(numberInput)
+collatz(int(numberInput))
 
 # less pure function
 
-def collatz(n):
-    number = int(n)
+def collatz(number):
     if number % 2 == 0:
         val = int(number/2)
         print(val)
@@ -30,4 +28,4 @@ def collatz(n):
 numberInput = input("Enter number: ")
 
 while numberInput != 1:
-    numberInput = collatz(numberInput)
+    numberInput = collatz(int(numberInput))
